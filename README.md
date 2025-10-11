@@ -1,35 +1,53 @@
-# capel
+# 🌱 CAPEL A.C.
 
-This template should help get you started developing with Vue 3 in Vite.
+Sitio web institucional desarrollado para **CAPEL A.C.**, una asociación civil dedicada a brindar servicios terapéuticos (psicológicos, de lenguaje y ocupacionales) a niños y familias.  
+Este proyecto fue realizado como parte de mi **servicio social en una startup/AC**, con el objetivo de dar presencia digital profesional a la organización.
 
-## Recommended IDE Setup
+## 👤 Rol en el proyecto
+- Desarrollo principal del código base con **Vue 3 + Vite**.
+- Configuración de ESLint y estándares de estilo para mantener calidad en el código.
+- Implementación de la estructura de navegación y componentes principales.
+- Despliegue en **Vercel** y vinculación con dominio propio (`centrocapel.org`).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Tecnologías utilizadas
+- [Vue 3](https://vuejs.org/) – Framework principal
+- [Vite](https://vitejs.dev/) – Bundler y servidor de desarrollo
+- [JavaScript (ES6+)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [CSS3](https://developer.mozilla.org/es/docs/Web/CSS) – Estilos personalizados
+- [ESLint](https://eslint.org/) – Linter para mantener calidad de código
+- [Vercel](https://vercel.com/) – Despliegue automático desde GitHub
 
-## Customize configuration
+## ⚙️ Scripts principales
+- `npm run dev` → Inicia el servidor de desarrollo con Vite  
+- `npm run build` → Compila el proyecto para producción  
+- `npm run lint` → Corre ESLint para mantener el código limpio  
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📦 Instalación y uso
+Clona el repositorio:
+```bash
+git clone https://github.com/Rudwolf-Dev/CAPEL.git
+```
 
-## Project Setup
-
-```sh
+Instala dependencias:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Ejecuta en modo desarrollo:
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
+Compila para producción:
+```bash
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## 🌐 Demo en línea
+👉 [www.centrocapel.org](https://www.centrocapel.org)
 
-```sh
-npm run lint
-```
+## 📚 Aprendizajes clave
+- Experiencia en un **proyecto real con impacto social**.  
+- Trabajo con un cliente externo (asociación civil) y adaptación a sus necesidades.  
+- Configuración de estándares de calidad (ESLint, estructura de proyecto).  
+- Despliegue profesional con dominio propio.  
