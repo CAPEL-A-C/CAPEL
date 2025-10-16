@@ -84,7 +84,6 @@ const servicios = ref([
 
 <style scoped>
 #bgEncabezado {
-  background-image: url('./../assets/img/placeholder.webp'); /* tu imagen */
   background-size: cover;   /* hace que la imagen cubra todo el ancho */
   background-position: center; /* centra la imagen */
   background-repeat: no-repeat;
