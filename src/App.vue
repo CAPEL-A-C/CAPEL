@@ -1,24 +1,39 @@
-<template>
-  <div class="page">
-    <header>
-      <!-- Componente de navegación lateral -->
-      <navMenu />
-    </header>
-
-    <main>
-      <SpeedInsights />
-      <!-- Contenido principal renderizado por el enrutador -->
-      <router-view />
-    </main>
-  </div>
-  <footer class="bg-body-secondary">
-    <footMenu />
-  </footer>
-</template>
-
 <script setup>
-  import navMenu from './components/navMenu.vue'
-  import footMenu from './components/footMenu.vue'
-  import { SpeedInsights } from "@vercel/speed-insights/vue"
+import FootMenu from './components/footMenu.vue'
+import NavMenu from './components/navMenu.vue'
 </script>
 
+<template>
+  <div id="app-container">
+    <header>
+      <NavMenu />
+    </header>
+    <main>
+      <RouterView />
+    </main>
+    <footer class="bg-body-tertiary">
+      <FootMenu />
+    </footer>
+  </div>
+</template>
+
+<style scoped>
+#app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+header {
+  display:flow-root;
+  z-index: 2;
+}
+</style>

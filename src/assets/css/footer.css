@@ -16,15 +16,15 @@ footer {
   border-top: 2px solid #e0e0e0; /* Línea decorativa superior */
 }
 
-  /* ===== Enlaces dentro del footer ===== */
-  footer a {
-    color: #2193b0; /* Azul personalizado */
-    text-decoration: none;
-  }
+/* ===== Enlaces dentro del footer ===== */
+footer a {
+  color: #2193b0; /* Azul personalizado */
+  text-decoration: none;
+}
 
-    footer a:hover {
-      text-decoration: underline; /* Subrayado al pasar el mouse */
-    }
+footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+}
 
 /* ===== Responsividad para pantallas pequeñas ===== */
 @media screen and (max-width: 600px) {
