@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-secondary bg-opacity-50">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="./">
         <img src="./icons/logo.png" />
@@ -23,7 +23,11 @@
           <router-link class="nav-link" to="./Contacto">Contacto</router-link>
         </ul>
       </div>
-      <button id="btnTema" @click="cambiarTema" :class="tema == 'light' ? 'btn btn-outline-light' : 'btn btn-outline-dark'">
+      <button
+        id="btnTema"
+        @click="cambiarTema"
+        :class="tema == 'light' ? 'btn btn-outline-light' : 'btn btn-outline-dark'"
+      >
         <!-- Ícono dinámico: cambia según el tema actual -->
         <i :class="tema == 'light' ? 'bi bi-moon-fill text-dark' : 'bi bi-sun-fill text-light'"></i>
       </button>

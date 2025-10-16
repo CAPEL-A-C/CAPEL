@@ -1,7 +1,7 @@
 <template>
   <!-- Encabezado principal -->
-  <section id="bgEncabezado">
-    <div id="Encabezado" class="bg-secondary text-md-center align-content-center">
+  <section id="bgEncabezado" class="py-5">
+    <div id="Encabezado" class="bg-secondary text-md-center align-content-center bg-opacity-50">
       <h1>CAPEL A.C.</h1>
       <p>Centro de Atención Psicológica, Educatica y de Lenguaje</p>
       <hr />
@@ -9,7 +9,7 @@
     </div>
   </section>
   <section id="Info" class="card mb-3 bg-body-secondary">
-    <div class="row g-0">
+    <div class="row g-0 py-2">
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Acerca de Nosotros</h5>
@@ -29,7 +29,7 @@
       </div>
     </div>
   </section>
-  <section id="Servicios" class="row justify-content-center mt-5 text-center bg-transparent">
+  <div id="Servicios" class="row justify-content-center mt-5 text-center bg-transparent">
     <div
       class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
       v-for="(servicio, index) in servicios"
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 <script setup>
 import { ref } from 'vue'
@@ -84,14 +84,13 @@ const servicios = ref([
 
 <style scoped>
 #bgEncabezado {
-  background-size: cover;   /* hace que la imagen cubra todo el ancho */
+  background-size: cover; /* hace que la imagen cubra todo el ancho */
   background-position: center; /* centra la imagen */
   background-repeat: no-repeat;
-  padding: 60px 0; /* espacio arriba y abajo */
   position: relative;
+  top: 0;
   z-index: -1;
 }
-
 #Encabezado {
   border-radius: 10px;
   width: 50%;

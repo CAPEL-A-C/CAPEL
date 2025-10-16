@@ -20,14 +20,3 @@ hr {
   color: chocolate;
 }
 </style>
-
-<script>
-function copiar(telefono) {
-  let blq = document.getElementById(telefono)
-  let btn = event.target
-  let btnLbl = btn.innerText
-  navigator.clipboard.writeText(txt)
-  btn.innerHTML = 'Copiado'
-  setTimeout(() => (btn.innerText = btnLbl), 1200)
-}
-</script>

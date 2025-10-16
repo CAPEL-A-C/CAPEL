@@ -5,13 +5,13 @@ import NavMenu from './components/navMenu.vue'
 
 <template>
   <div id="app-container">
-    <header>
+    <header class="bg-body-tertiary">
       <NavMenu />
     </header>
     <main>
       <RouterView />
     </main>
-    <footer class="bg-body-tertiary">
+    <footer class="bg-body-tertiary text-body-tertiary">
       <FootMenu />
     </footer>
   </div>
@@ -33,7 +33,10 @@ footer {
 }
 
 header {
-  display:flow-root;
-  z-index: 2;
+  display: flow-root;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 2025;
 }
 </style>
