@@ -1,12 +1,10 @@
 <template>
   <!-- Encabezado principal -->
-  <section id="bgEncabezado" class="py-5">
-    <div id="Encabezado" class="bg-secondary text-md-center align-content-center bg-opacity-50">
-      <h1>CAPEL A.C.</h1>
-      <p>Centro de Atención Psicológica, Educatica y de Lenguaje</p>
-      <hr />
-      <p><small class="text-body-secondary">"Servicios terapeuticos con calidez humana"</small></p>
-    </div>
+  <section class="py-5 row justify-content-center mt-5 text-center">
+    <h1 class="card-title">CAPEL A.C.</h1>
+    <p class="card-text">Centro de Atención Psicológica, Educatica y de Lenguaje</p>
+    <hr />
+    <p><small class="text-body-secondary">"Servicios terapeuticos con calidez humana"</small></p>
   </section>
   <section id="Info" class="card mb-3 bg-body-secondary">
     <div class="row g-0 py-2">
@@ -83,28 +81,14 @@ const servicios = ref([
 </script>
 
 <style scoped>
-#bgEncabezado {
-  background-size: cover; /* hace que la imagen cubra todo el ancho */
-  background-position: center; /* centra la imagen */
-  background-repeat: no-repeat;
-  position: relative;
-  top: 0;
-  z-index: -1;
-}
-#Encabezado {
-  border-radius: 10px;
-  width: 50%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 #Encabezado hr {
   height: 20px;
   margin: auto 50% auto 45%;
 }
 hr {
-  width: 10%;
-  color: chocolate;
+  max-width: 120px;
+  width: 100%;
+  color: rgb(249, 177, 125);
 }
 #Servicios .card {
   transition:

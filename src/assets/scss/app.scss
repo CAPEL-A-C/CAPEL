@@ -1,19 +1,17 @@
-@charset "UTF-8";
 /* =========================================================
    Estilos base y tipografía
    ========================================================= */
-@import url("../../../node_modules/bootstrap/scss/bootstrap.scss");
-@import url("../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss");
 * {
-  transition: background-color 0.8s, color 0.8s;
+  transition:
+    background-color 0.8s,
+    color 0.8s;
 }
-
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -74,14 +72,17 @@ a:hover {
 /* =========================================================
    Responsividad
    ========================================================= */
+
 /* Teléfonos pequeños (≤ 480px) */
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 1.4rem;
   }
+
   h2 {
     font-size: 1.2rem;
   }
+
   p,
   label,
   input,
@@ -90,22 +91,27 @@ a:hover {
     font-size: 0.95rem;
   }
 }
+
 /* Tablets y pantallas medianas (≤ 768px) */
 @media screen and (max-width: 768px) {
   body {
     font-size: 15px;
   }
+
   section {
     padding: 20px;
     margin: 10px;
   }
+
   h1 {
     font-size: 1.6rem;
   }
+
   h2 {
     font-size: 1.4rem;
   }
 }
+
 /* =========================================================
    Enlaces y botones
    ========================================================= */
@@ -125,7 +131,9 @@ a,
 .btn-link.nav-link:focus,
 .form-control:focus,
 .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow:
+    0 0 0 0.1rem white,
+    0 0 0 0.25rem #258cfb;
 }
 
 /* =========================================================
@@ -176,7 +184,6 @@ footer a {
   text-decoration: none;
   flex-shrink: 0;
 }
-
 footer a:hover {
   text-decoration: underline; /* Subrayado al pasar el mouse */
 }
@@ -188,4 +195,5 @@ footer a:hover {
   }
 }
 
-/*# sourceMappingURL=app.css.map */
+@import url('../../../node_modules/bootstrap/scss/bootstrap.scss');
+@import url('../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss');
