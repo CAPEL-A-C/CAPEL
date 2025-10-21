@@ -6,34 +6,32 @@
     <hr />
     <p><small class="text-body-secondary">"Servicios terapeuticos con calidez humana"</small></p>
   </section>
-  <section id="Info" class="card mb-3 bg-body-secondary">
-    <div class="row g-0 py-2">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Acerca de Nosotros</h5>
-          <hr />
-          <p class="card-text">
-            CAPEL es una Asociación Civil que atiende a niños, adolescentes y adultos con algun
-            transtorno del neurodesarrollo.
-          </p>
-          <p class="card-text">
-            Nuestros servicios estan enfocados en mejorar la calidad de vida en ellos y sus familias
-            proviendo asi la inclusion en la vida social y educativa.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <img src="./icons/logo.png" class="img-fluid rounded-start" alt="CAPEL A.C logo" />
+  <div class="row justify-content-center mt-5 text-center g-0 py-2 bg-secondary bg-opacity-25 rounded-3">
+    <div class=" justify-content-start text-start col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Acerca de Nosotros</h5>
+        <hr />
+        <p class="card-text">
+          CAPEL es una Asociación Civil que atiende a niños, adolescentes y adultos con algun
+          transtorno del neurodesarrollo.
+        </p>
+        <p class="card-text">
+          Nuestros servicios estan enfocados en mejorar la calidad de vida en ellos y sus familias
+          proviendo asi la inclusion en la vida social y educativa.
+        </p>
       </div>
     </div>
-  </section>
+    <div class="col-md-2 mt-2">
+      <img src="./icons/logo.png" class="img-fluid rounded-start" alt="CAPEL A.C logo" />
+    </div>
+  </div>
   <div id="Servicios" class="row justify-content-center mt-5 text-center bg-transparent">
     <div
       class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
       v-for="(servicio, index) in servicios"
       :key="index"
     >
-      <div class="card h-100 shadow-sm border-0" style="width: 18rem">
+      <div class="card h-100 shadow-sm border-0 py-4" style="width: 18rem">
         <img :src="servicio.img" class="card-img-top mx-auto d-block" alt="Imagen de servicio" />
         <div class="card-body">
           <!-- Si hay varios párrafos -->

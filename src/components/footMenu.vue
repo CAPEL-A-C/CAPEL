@@ -17,6 +17,6 @@ hr {
   width: 5%;
   height: 20px;
   margin: auto 50% auto 47.5%;
-  color: chocolate;
+  color: rgb(249, 177, 125);
 }
 </style>
