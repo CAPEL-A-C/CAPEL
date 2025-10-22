@@ -1,16 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-mx">
   <head>
-    <meta charset="UTF-8">
-    <meta name="developer" content="Rudwolf_Dev">
-    <link rel="icon" href="/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAPEL A.C.</title>
+    <meta charset="UTF-8" />
+    <meta name="developer" content="Rudwolf_Dev" />
+    <link rel="icon" href="/favicon.png" />
+
+    <!-- SEO básico (reemplaza los valores entre <>) -->
+    <title>CAPEL A.C. — Asociación Civil</title>
+    <meta
+      name="description"
+      content="CAPEL A.C. — Asociación Civil. Organización sin fines de lucro dedicada a la atención comunitaria y servicios sociales en México."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://www.centrocapel.org/" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Idioma / hreflang -->
+    <link rel="alternate" href="https://www.centrocapel.org/" hreflang="es-mx" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CAPEL A.C. — Asociación Civil" />
+    <meta property="og:description" content="CAPEL A.C. — <Breve descripción>" />
+    <meta property="og:url" content="https://www.centrocapel.org/" />
+    <meta property="og:site_name" content="CAPEL A.C." />
+    <meta property="og:image" content="https://www.centrocapel.org/preview.jpg" />
+    <meta property="og:image:alt" content="Logo o imagen representativa de CAPEL A.C." />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CAPEL A.C. — Asociación Civil" />
+    <meta name="twitter:description" content="CAPEL A.C. — <Breve descripción>" />
+    <meta name="twitter:image" content="https://www.centrocapel.org/preview.jpg" />
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Search Console (descomentar y poner código si aplica) -->
+    <!-- <meta name="google-site-verification" content="codigo_de_verificacion"> -->
+
+    <!-- Structured Data (JSON-LD) cargado desde archivo externo -->
+    <script>
+      // Carga el JSON-LD externo y lo inyecta como script[type="application/ld+json"]
+      ;(function () {
+        try {
+          var url = '/structured-data.jsonld'
+          fetch(url, { cache: 'no-cache' })
+            .then(function (res) {
+              if (!res.ok) throw new Error('Network response was not ok')
+              return res.text()
+            })
+            .then(function (text) {
+              var script = document.createElement('script')
+              script.type = 'application/ld+json'
+              script.text = text
+              document.head.appendChild(script)
+            })
+            .catch(function (err) {
+              /* Si la carga falla, no romper la página; dejar log para debug */
+              console.warn('No se pudo cargar structured-data.jsonld:', err)
+            })
+        } catch (e) {
+          console.warn('Error al inyectar JSON-LD externo:', e)
+        }
+      })()
+    </script>
   </head>
   <body>
     <header id="navBar" class="bg-body-secondary"></header>
     <div id="app"></div>
     <footer id="footBar" class="bg-body-tertiary text-body-tertiary"></footer>
+    <noscript>
+      <div style="padding: 1em; background: #f8d7da; color: #842029">
+        Esta página requiere JavaScript para mostrar toda la información. Si no puede usar
+        JavaScript, contacte a capellinares1535@gmail.com
+      </div>
+    </noscript>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,14 @@
+# robots.txt for centrocapel.org
+User-agent: *
+Allow: /
+
+# Uncomment and adjust the following to block specific crawlers or paths
+# Disallow: /admin/
+
+Sitemap: https://www.centrocapel.org/sitemap.xml
+# Permitir acceso a todo el sitio; ajustar según necesidad
+User-agent: *
+Allow: /
+
+# Sitemap (actualiza con tu dominio real)
+Sitemap: https://www.centrocapel.org//sitemap.xml

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CAPEL A.C.",
+  "legalName": "CAPEL A.C.",
+  "url": "https://www.centrocapel.org/",
+  "logo": "https://www.centrocapel.org/favicon.png",
+  "sameAs": [
+    "https://www.facebook.com/capel.linares"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "mailto:capellinares1535@gmail.com",
+      "telephone": "+52-821-688-1924",
+      "areaServed": "MX",
+      "availableLanguage": [
+        "es"
+      ]
+    }
+  ]
+}
