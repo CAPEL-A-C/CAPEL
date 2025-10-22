@@ -1,4 +1,12 @@
+<script setup lang="ts">
+import NavMenu from './navMenu.vue';
+
+</script>
+
 <template>
+  <header class=" bg-secondary">
+    <NavMenu />
+  </header>
   <section class="container">
     <h2>Nuestros horarios de servicio</h2>
 

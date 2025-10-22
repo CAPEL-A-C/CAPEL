@@ -1,22 +1,23 @@
-/* =========================================================
-   Estilos base y tipografía
-   ========================================================= */
+
+$blue: #4f80b5;
+$gray-200: #b57059;
+
 * {
   transition:
     background-color 0.8s,
     color 0.8s;
+  font-family: 'Times New Roman';
 }
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-family: 'Times New Roman';
   line-height: 1.6;
 }
 
-header {
+header NavMenu {
   display: flow-root;
   position: sticky;
   position: -webkit-sticky;
@@ -194,5 +195,5 @@ footer a:hover {
   }
 }
 
-@import url('../../../node_modules/bootstrap/scss/bootstrap.scss');
-@import url('../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss');
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('../../../node_modules/bootstrap-icons/font/bootstrap-icons.css');

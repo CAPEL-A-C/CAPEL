@@ -1,4 +1,7 @@
 <template>
+  <header class="bg-secondary">
+    <NavMenu />
+  </header>
   <div id="contacto" class="container py-4">
     <!-- Opción WhatsApp -->
     <div class="mt-3">
@@ -16,6 +19,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import NavMenu from './navMenu.vue'
 
 const telefono = '8211451697' // Número en formato internacional sin "+"
 const mensaje = 'Hola, me gustaría recibir más información.' // Mensaje inicial

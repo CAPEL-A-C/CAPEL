@@ -1,13 +1,18 @@
 <template>
   <!-- Encabezado principal -->
-  <section class="py-5 row justify-content-center mt-5 text-center">
-    <h1 class="card-title">CAPEL A.C.</h1>
-    <p class="card-text">Centro de Atención Psicológica, Educatica y de Lenguaje</p>
-    <hr />
-    <p><small class="text-body-secondary">"Servicios terapeuticos con calidez humana"</small></p>
-  </section>
-  <div class="row justify-content-center mt-5 text-center g-0 py-2 bg-secondary bg-opacity-25 rounded-3">
-    <div class=" justify-content-start text-start col-md-6">
+  <header class="p-0 m-0" id="Encabezado">
+    <NavMenu class="text-light bg-secondary bg-opacity-75" />
+    <div class="row justify-content-center mt-5 text-center bg-light bg-opacity-75 rounded-3">
+      <h1 class="card-title py-1 text-black">Centro de Atenció Psicológica, Educativa y de Lenguaje</h1>
+      <h4 class=" card-subtitle text-black">CAPEL A.C.</h4>
+      <hr />
+      <p><small class="text-body-secondary text-black">"Servicios terapeuticos con calidez humana"</small></p>
+    </div>
+  </header>
+  <div
+    class="row justify-content-center mt-5 text-center g-0 py-2 bg-secondary bg-opacity-50 rounded-3"
+  >
+    <div class="justify-content-start text-start col-md-6">
       <div class="card-body">
         <h5 class="card-title">Acerca de Nosotros</h5>
         <hr />
@@ -44,6 +49,7 @@
   </div>
 </template>
 <script setup>
+import NavMenu from './navMenu.vue'
 import { ref } from 'vue'
 
 const servicios = ref([
@@ -79,6 +85,10 @@ const servicios = ref([
 </script>
 
 <style scoped>
+#Encabezado {
+  font-size: 1.5rem;
+  background: url('./index/1-8.jpg') no-repeat right;
+}
 #Encabezado hr {
   height: 20px;
   margin: auto 50% auto 45%;
