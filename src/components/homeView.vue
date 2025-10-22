@@ -87,7 +87,7 @@ const servicios = ref([
 <style scoped>
 #Encabezado {
   font-size: 1.5rem;
-  background: url('./index/1-8.jpg') no-repeat right;
+  background: url('./1-8.jpg') no-repeat right;
 }
 #Encabezado hr {
   height: 20px;
