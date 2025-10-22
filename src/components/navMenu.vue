@@ -23,14 +23,13 @@
           <router-link class="nav-link" to="./Contacto">Contacto</router-link>
         </ul>
       </div>
-      <button
+      <!-- <button
         id="btnTema"
         @click="cambiarTema"
         :class="tema == 'light' ? 'btn btn-outline-light' : 'btn btn-outline-dark'"
       >
-        <!-- Ícono dinámico: cambia según el tema actual -->
         <i :class="tema == 'light' ? 'bi bi-moon-fill text-dark' : 'bi bi-sun-fill text-light'"></i>
-      </button>
+      </button> -->
     </div>
   </nav>
 </template>

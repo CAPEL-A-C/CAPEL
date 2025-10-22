@@ -3,10 +3,16 @@
   <header class="p-0 m-0" id="Encabezado">
     <NavMenu class="text-light bg-secondary bg-opacity-75" />
     <div class="row justify-content-center mt-5 text-center bg-light bg-opacity-75 rounded-3">
-      <h1 class="card-title py-1 text-black">Centro de Atenció Psicológica, Educativa y de Lenguaje</h1>
-      <h4 class=" card-subtitle text-black">CAPEL A.C.</h4>
+      <h1 class="card-title py-1 text-black">
+        Centro de Atenció Psicológica, Educativa y de Lenguaje
+      </h1>
+      <h4 class="card-subtitle text-black">CAPEL A.C.</h4>
       <hr />
-      <p><small class="text-body-secondary text-black">"Servicios terapeuticos con calidez humana"</small></p>
+      <p>
+        <small class="text-body-secondary text-black"
+          >"Servicios terapeuticos con calidez humana"</small
+        >
+      </p>
     </div>
   </header>
   <div

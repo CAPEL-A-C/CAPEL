@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import NavMenu from './navMenu.vue';
-
+import NavMenu from './navMenu.vue'
 </script>
 
 <template>
-  <header class=" bg-secondary">
+  <header class="bg-secondary">
     <NavMenu />
   </header>
   <section class="container">
