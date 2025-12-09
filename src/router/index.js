@@ -10,7 +10,7 @@ const router = createRouter({
     { path: '/', component: Home },
     { path: '/Contacto', component: Contacto },
     { path: '/Horarios', component: Horarios },
-    { path: '/:pathMatch(.*)*', redirect: "/" },
+    { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
 })
 
