@@ -43,7 +43,7 @@ Compila para producción:
 npm run build
 ```
 
-## 🌐 Demo en línea
+## 🌐 Sitio en funcionamiento
 👉 [www.centrocapel.org](https://www.centrocapel.org)
 
 ## 📚 Aprendizajes clave
