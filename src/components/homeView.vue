@@ -1,13 +1,13 @@
 <template>
   <!-- Encabezado principal -->
-  <header class="p-0 m-0" id="Encabezado">
+  <header class="p-0 m-0 justify-content-center" id="Encabezado">
     <NavMenu class="text-light bg-secondary bg-opacity-75" />
-    <div class="row justify-content-center mt-5 text-center bg-light bg-opacity-75 rounded-3">
+    <div class="row text-center bg-light bg-opacity-75 rounded-3 py-5">
       <h1 class="card-title py-1 text-black">
         Centro de Atenció Psicológica, Educativa y de Lenguaje
       </h1>
       <h4 class="card-subtitle text-black">CAPEL A.C.</h4>
-      <hr />
+      <hr class="inHR" />
       <p>
         <small class="text-body-secondary text-black"
           >"Servicios terapeuticos con calidez humana"</small
@@ -16,12 +16,12 @@
     </div>
   </header>
   <div
-    class="row justify-content-center mt-5 text-center g-0 py-2 bg-secondary bg-opacity-50 rounded-3"
+    class="row justify-content-center text-center g-0 py-2 rounded-3"
   >
     <div class="justify-content-start text-start col-md-6">
       <div class="card-body">
         <h5 class="card-title">Acerca de Nosotros</h5>
-        <hr />
+        <hr class="inHR" />
         <p class="card-text">
           CAPEL es una Asociación Civil que atiende a niños, adolescentes y adultos con algun
           transtorno del neurodesarrollo.
@@ -36,6 +36,7 @@
       <img src="./icons/logo.png" class="img-fluid rounded-start" alt="CAPEL A.C logo" />
     </div>
   </div>
+  <hr class="mx-5" />
   <div id="Servicios" class="row justify-content-center mt-5 text-center bg-transparent">
     <div
       class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
@@ -99,7 +100,12 @@ const servicios = ref([
   height: 20px;
   margin: auto 50% auto 45%;
 }
+
 hr {
+  width: 85%;
+}
+
+.inHR {
   max-width: 120px;
   width: 100%;
   color: rgb(249, 177, 125);
