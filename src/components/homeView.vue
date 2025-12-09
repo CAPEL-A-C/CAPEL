@@ -15,9 +15,7 @@
       </p>
     </div>
   </header>
-  <div
-    class="row justify-content-center text-center g-0 py-2 rounded-3"
-  >
+  <div class="row justify-content-center text-center g-0 py-2 rounded-3">
     <div class="justify-content-start text-start col-md-6">
       <div class="card-body">
         <h5 class="card-title">Acerca de Nosotros</h5>
