@@ -22,7 +22,7 @@ import { computed } from 'vue'
 import NavMenu from './navMenu.vue'
 
 const telefono = '8211451697' // Número en formato internacional sin "+"
-const mensaje = 'Hola, me gustaría recibir más información.' // Mensaje inicial
+const mensaje = 'Buen dia, me gustaría recibir más información.' // Mensaje inicial
 
 // Link directo a WhatsApp
 const whatsappLink = computed(() => {
