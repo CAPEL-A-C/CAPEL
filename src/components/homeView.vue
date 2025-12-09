@@ -4,7 +4,7 @@
     <NavMenu class="text-light bg-secondary bg-opacity-75" />
     <div class="row text-center bg-light bg-opacity-75 rounded-3 py-5">
       <h1 class="card-title py-1 text-black">
-        Centro de Atenció Psicológica, Educativa y de 
+        Centro de Atenció Psicológica, Educativa y de Lenguaje
       </h1>
       <h4 class="card-subtitle text-black">CAPEL A.C.</h4>
       <hr class="inHR" />
